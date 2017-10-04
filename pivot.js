@@ -3,7 +3,8 @@ var tab = [
   ['00','01','02','03','04'],
   ['10','11','12','13','14'],
   ['20','21','22','23','24'],
-  ['30','31','32','33','34']];
+  ['30','31','32','33','34'],
+  ['40','41','42','43','44']];
 
 //Calcul du nombre de colonnes et de lignes dans le tableau créé.
 var nbcol = tab.length
@@ -14,7 +15,7 @@ console.log(tab)
 
 //Création d'un nouveau tableau vide du bon nombre de colonnes/lignes
 var tabpivot=new Array(nbrow)
-for (i=0; i <5; i++)
+for (i=0; i <nbrow; i++)
     tabpivot[i]=new Array(nbcol)
 
 //Calcul du nombre de colonnes et de lignes du nouveau tableau pour vérification
